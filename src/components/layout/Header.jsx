@@ -40,14 +40,14 @@ const Header = () => {
 	const socialLinks = [
 		{ icon: <FaFacebook />, url: "https://facebook.com/kemenagmagetan" },
 		{ icon: <FaInstagram />, url: "https://instagram.com/kemenagmagetan" },
-		{ icon: <FaYoutube />, url: "https://youtube.com/kemenagmagetan" },
+		{ icon: <FaYoutube />, url: "https://youtube.com/@humaskemenagmagetan1932" },
 		{ icon: <FaTiktok />, url: "https://tiktok.com/@kemenagmagetan" },
 	];
 
 	return (
 		<header
 			className={`fixed w-full z-50 transition-all duration-300 ${
-				scrolled ? "bg-white shadow-md py-2" : "bg-white/90 py-4"
+				scrolled ? "bg-white shadow-md py-2" : "bg-white/98 py-4"
 			}`}
 		>
 			<div className="container mx-auto px-4">
@@ -64,17 +64,6 @@ const Header = () => {
 								KEMENTERIAN AGAMA
 							</h1>
 							<p className="text-sm text-gray-600">Kabupaten Magetan</p>
-						</div>
-					</div>
-
-					<div className="hidden md:flex items-center space-x-4">
-						<div className="flex items-center text-green-700">
-							<FaPhone className="mr-2" />
-							<span>(0351) 1234567</span>
-						</div>
-						<div className="flex items-center text-green-700">
-							<FaEnvelope className="mr-2" />
-							<span>kemenag@magetan.go.id</span>
 						</div>
 					</div>
 				</div>
